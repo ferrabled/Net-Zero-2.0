@@ -29,7 +29,7 @@ export default function FundedProjects() {
         </h1>
       </div>
       <p>Assign votes to voters after you deposited your funds.</p>
-      <DepositFundsButton setVotes = {setVotes} depositAmount = {depositAmount}>
+      <DepositFundsButton setVotes = {setVotes} depositAmount = {depositAmount}/>
       <TextField
         label="Enter some text"
         value="0"
